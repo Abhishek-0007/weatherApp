@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="#ACC9DF"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="Do you realy want to exit ?"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:text="Yes"
+        android:textColor="#EFEFEF"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
